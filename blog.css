@@ -44,17 +44,17 @@
 
  
 }
-.s1
-{
-  margin-top: 7%;
-}
 
-@media screen and (min-width: 480px) {
-  .con{
-    background-color: lightgreen;
-    margin-top: 15%;
+
+/*for lg*/
+@media(min-width: 1024px){
+  #s1{
+    margin-top: 10% !important;
   }
 }
+#s1{
+    margin-top: 30% ;
+  }
 .colr
 {
   

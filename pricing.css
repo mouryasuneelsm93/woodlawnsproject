@@ -45,11 +45,16 @@
  
 }
 
-@media screen and (min-width: 480px) {
-  .s1{
-    margin-top: 20%;
+
+/*for lg*/
+@media(min-width: 1024px){
+  #s1{
+    margin-top: 10% !important;
   }
 }
+#s1{
+    margin-top: 30% ;
+  }
 .colr
 {
   

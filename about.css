@@ -44,16 +44,15 @@
 
  
 }
-.s1
-{
-  margin-top: 6%;
-}
-@media screen and (min-width: 480px) {
-  .cs1{
-    
-    margin-top: 15%;
+
+
+@media(min-width: 1024px){
+  #s1{
+    margin-top: 10% !important;
   }
 }
+
+
 .colr
 {
   
@@ -62,6 +61,12 @@
  
 }
 /*--------------------------------------header close----------------*/
+#s1
+{
+  width:100%;
+  background-color: #666;
+  margin-top: 30% ;
+}
 .container-fluid
 {
   width:100%;
@@ -301,3 +306,10 @@ font-weight: 500;
   color:#2ea3f2;
   padding: 10px;
 }
+
+ @media (min-width: 330px) and (max-width: 650)
+ {
+  .s12 {
+    padding-top: 70%;
+  }
+ }
